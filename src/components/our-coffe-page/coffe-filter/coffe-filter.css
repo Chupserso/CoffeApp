@@ -1,0 +1,74 @@
+.coffe__settings {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.coffe__filter {
+    margin-left: 83px;
+    display: flex;
+    align-items: center;
+}
+.coffe__search {
+    display: flex;
+    align-items: center;
+}
+.coffe__settings span {
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.coffe__search input {
+    width: 180px;
+    height: 30px;
+    margin-left: 19px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.coffe__filters {
+    margin-left: 35px;
+}
+.coffe__filters button {
+    width: 75px;
+    height: 30px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.coffe__filters button:first-of-type {
+    margin: 0;
+}
+@media screen and (max-width:705px) {
+    .coffe__settings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coffe__filter {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

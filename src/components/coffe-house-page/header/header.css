@@ -1,0 +1,86 @@
+.header {
+    width: 100%;
+    height: 610px;
+    padding-top: 30px;
+    background: url(../../../../public/img/header-fone.png) center center/cover no-repeat;
+}
+.menu {
+    max-width: 100%;
+    padding-left: 148px;
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+}
+.menu__item {
+    list-style-type: none;
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+    cursor: pointer;
+}
+.menu__item:first-of-type {
+    margin: 0;
+}
+.header__content {
+    margin-top: 111px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__title {
+    font-family: 'Merienda-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__vector {
+    margin-top: 21px;
+}
+.header__descr {
+    font-family: 'Merienda-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 35px;
+}
+.header__button .btn {
+    width: 120px;
+    height: 30px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+.header__button .btn:hover {
+    cursor: pointer;
+    box-shadow: inset 400px 0 0 0 rgb(106, 106, 106);
+    transition: 2s all;
+}
+@media screen and (max-width:722px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    h1 {
+        text-align: center;
+    }
+}

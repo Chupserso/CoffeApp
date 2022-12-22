@@ -1,0 +1,34 @@
+.footer__menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: flex-end;
+}
+.footer__coffe__menu__item {
+    list-style-type: none;
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.footer__coffe__menu__item:first-of-type {
+    margin: 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.footer__vector {
+    margin-top: 30.57px;
+}
+.footer__vector img {
+    display: block;
+    margin: 0 auto;
+}

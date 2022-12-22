@@ -1,0 +1,28 @@
+.coffe {
+    min-height: 495px;
+    background: url(../../../../public/img/coffe-best-fone.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coffe__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coffe__title {
+    font-family: 'Merienda-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+@media screen and (max-width:712px) {
+    .coffe {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

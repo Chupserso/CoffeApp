@@ -1,0 +1,11 @@
+.coffe__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7px;
+}
+.coffe__list:hover {
+    cursor: url(../../../../public/img/cursor.png), auto;
+}
+.mlist {
+    margin-top: 39px;
+}

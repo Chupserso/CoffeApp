@@ -1,0 +1,46 @@
+.header-our {
+    width: 100%;
+    height: 260px;
+    padding-top: 30px;
+    background: url(../../../../public/img/header-our-fone.png) center center/cover no-repeat;
+}
+.menu-our {
+    max-width: 100%;
+    padding-left: 148px;
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+}
+.menu__item-our {
+    list-style-type: none;
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+    cursor: pointer;
+}
+.header__title-our {
+    font-family: 'Merienda-Bold';
+    text-align: center;
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.menu__item-our:first-of-type {
+    margin: 0;
+}
+@media screen and (max-width:722px) {
+    .menu-our {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+}

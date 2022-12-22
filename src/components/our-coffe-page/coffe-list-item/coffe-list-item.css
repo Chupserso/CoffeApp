@@ -1,0 +1,64 @@
+.coffe__list__item-our {
+    width: 220px;
+    height: 260px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.coffe__list__item-our__img {
+    width: 167px;
+    height: 115px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 37px;
+}
+.coffe__list__item-our__img img {
+    width: 100%;
+    height: 100%;
+}
+.coffe__list__item-our__wrapper {
+    margin: 14px auto;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.coffe__list__item-our__name {
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+.coffe__list__item-our__type {
+    font-family: 'Merienda-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 5px;
+}
+.coffe__list__item-our__price {
+    font-family: 'Merienda-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #000000;
+}
+@media screen and (max-width:705px) {
+    .coffe__list__item-our {
+        width: 270px;
+        height: 310px;       
+    }
+    .coffe__list__item-our__img {
+        width: 207px;
+        height: 155px;    
+    }
+}
